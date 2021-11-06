@@ -380,6 +380,7 @@ body {
     width: 30rem;
     box-shadow: var(--box-shadow);
     background: #fff;
+    text-align: center;
   }
   .header .navbar.active {
     left: 2rem;
