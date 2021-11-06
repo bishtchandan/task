@@ -102,9 +102,11 @@ body {
 }
 
 /* css for search-form */
-#searchBtn{
-    display: ;
+
+#search-btn{
+  display: none;
 }
+
 .header .search-form {
   position: absolute;
   top: 110%;
@@ -138,6 +140,27 @@ body {
   padding-right: 1.5rem;
   color: var(--black);
   cursor: pointer;
+}
+
+
+.searching-form{
+  display: flex;
+  border: 2px solid #666;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.searching-form input{
+  font-size: 1.7rem;
+  margin-left: 2rem;
+}
+
+.searching-form label{
+  font-size: 1.7rem;
+  color: #666;
 }
 
 .home {
@@ -325,7 +348,12 @@ body {
   #menu-btn {
     display: inline-block;
   }
-
+  #searching-form{
+    display: none;
+  }
+  #search-btn{
+    display: inline-block;
+  }
   .box {
     width: 100%;
     flex-direction: column;

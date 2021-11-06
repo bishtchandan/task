@@ -1,6 +1,6 @@
 
  const searchForm = document.querySelector('.search-form')
- const Btn = document.getElementById('searchBtn');
+ const Btn = document.getElementById('search-btn');
 
 Btn.addEventListener('click', () => {
      searchForm.classList.toggle('active');
